@@ -1,0 +1,21 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Example usage: yolo train data=UAV.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── UAV
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#train_img_path_list =
+#val_img_path_list =
+
+# UAV
+path: ../datasets/UAV  # dataset root dir
+train: /home/xyn02/Desktop/ultralytics/ultralytics/ultralytics/datasets/UAV/train/images
+val: /home/xyn02/Desktop/ultralytics/ultralytics/ultralytics/datasets/UAV/val/images
+test:
+
+# Classes
+names:
+  0: UAV
